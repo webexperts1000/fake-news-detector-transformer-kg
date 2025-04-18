@@ -33,7 +33,7 @@ def download_and_load_everything():
 
     # tokenizer & model
     tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
-    model = torch.load("MODEL_PATH", map_location=torch.device("cpu"), weights_only=False)
+    model = torch.load(MODEL_PATH, map_location=torch.device("cpu"), weights_only=False)
 
     model.eval()
 
