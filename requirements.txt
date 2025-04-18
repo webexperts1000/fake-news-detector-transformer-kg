@@ -1,7 +1,7 @@
-torch
-transformers
-spacy
-requests
 streamlit
+transformers==4.37.2
+torch==2.2.0
+spacy==3.7.2
+requests
 wikidata
 en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
