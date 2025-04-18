@@ -1,7 +1,12 @@
-streamlit
-transformers==4.37.2
 torch==2.2.0
+transformers==4.37.2
 spacy==3.7.2
-requests
-wikidata
+requests==2.32.3
+streamlit==1.44.1
+wikidata==0.8.1
+
+# force compatible numpy version
+numpy<2
+
+# spaCy model
 en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
