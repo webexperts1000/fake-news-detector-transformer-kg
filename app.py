@@ -16,7 +16,7 @@ st.title("📰 Fake News Detector with Knowledge Graph Insight")
 
 # CONFIG 
 MODEL_PATH = "best_model.pth"
-HUGGINGFACE_MODEL_URL = "https://huggingface.co/webexperts/fake-news-detector-bert/resolve/main/best_model.pth"
+HUGGINGFACE_MODEL_URL = "https://huggingface.co/webexperts/fake-news-detector-bert-reupload/resolve/main/best_model.pth"
 
 
 # LOAD MODELS AND CLIENTS 
